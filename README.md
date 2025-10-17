@@ -1,12 +1,55 @@
-# pyVinty By mxo23 - Public Functions Reference
+# Negersztoll
 
-This document provides complete documentation for all public functions available in pyVinty, including their parameters and return data.
+A simple Python application with compilable source code.
 
-## Contact
+## Quick Start
+
+### Running the Application
+
+You can run the application directly:
+
+```bash
+python src/main.py
+```
+
+Or install and use the compiled version:
+
+```bash
+# Build the package
+python -m build --no-isolation
+
+# Install the package
+pip install dist/negersztoll-0.1.0-py3-none-any.whl
+
+# Run the application
+negersztoll
+```
+
+## Development
+
+### Building from Source
+
+```bash
+# Install build dependencies
+pip install build
+
+# Build the distribution packages
+python -m build --no-isolation
+```
+
+This will create both a source distribution (`.tar.gz`) and a wheel (`.whl`) in the `dist/` directory.
+
+---
+
+## pyVinty Documentation Reference
+
+Below is the original documentation for pyVinty by mxo23.
+
+### Contact
 
 Message me for the source of the library.
 
-### Discord : mxo23 or https://discord.gg/6gQXmCdP
+#### Discord : mxo23 or https://discord.gg/6gQXmCdP
 
 ## Table of Contents
 
